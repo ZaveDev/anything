@@ -1,5 +1,11 @@
 import React from 'react';
 
 export default function Login() {
-  return <><h2>login</h2></>;
+  return <>
+    <div>
+      <input type="text" />
+      <input type="text" />
+      <button >Submit</button>
+    </div>
+  </>;
 }
