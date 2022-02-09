@@ -1,0 +1,10 @@
+div{
+    text-align:center;
+    width:90vw;
+    height:90vh;
+    border: 1px solid pink;
+    position: relative;
+}
+div h2{
+    color:white;
+}
