@@ -1,37 +1,36 @@
-.register-container{
-    display:flex;
-    justify-content:center;
-    border: 1px solid red;
-    height: 50vh;
-    align-items: center;
-    margin:0 auto;
-    top: 40%;
-    left:1%;
-  transform: translateY(-50%);
-
+.register-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  align-items: center;
 }
 
-.register_form{
-    max-width: 60%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
+.register_form {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 4%;
+  width: 40vw;
+  /* display:flex; */
+  /* flex-direction: column; */
+}
 
-    /* display:flex; */
-    /* flex-direction: column; */
+.user-fields {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
 }
-.user-fields{
-    height:80%;
+.user-fields div {
+  text-align: left;
+  width: 100%;
+  display: flex;
 }
-.user-fields input{
-   width: 50%;
-   margin: 1%;
-   padding: 1%;
+
+.user-fields div label {
+  min-width: 50%;
 }
-/* .user-fields{
-    display:flex;
-    align-items: flex-end;
-    height:100%;
-} */
+.user-fields div input {
+  width: 50%;
+}

@@ -27,18 +27,28 @@ export default function Register() {
     <div class="register-container">
       <div class="register_form">
         <h2>Register</h2>
-        {/* <div classname="user-fields">
-          <label>Enter your name</label>
-          <input type="text" placeholder="Name"></input>
-          <label>Create a username</label>
-          <input type="text" placeholder="Username"></input>
-          <label>Enter your email</label>
-          <input type="text" placeholder="Email"></input>
-          <label>Create a password</label>
-          <input type="text" placeholder="Create a password"></input>
-          <label>Confirm your password</label>
-          <input type="text" placeholder="Confirm password"></input>
-        </div> */}
+        <div className="user-fields">
+          <div>
+            <label>Enter your name</label>
+            <input type="text" placeholder="Name"></input>
+          </div>
+          <div>
+            <label>Create a username</label>
+            <input type="text" placeholder="Username"></input>
+          </div>
+          <div>
+            <label>Enter your email</label>
+            <input type="text" placeholder="Email"></input>
+          </div>
+          <div>
+            <label>Create a password</label>
+            <input type="text" placeholder="Create a password"></input>
+          </div>
+          <div>
+            <label>Confirm your password</label>
+            <input type="text" placeholder="Confirm password"></input>
+          </div>
+        </div>
       </div>
     </div>
   </>;

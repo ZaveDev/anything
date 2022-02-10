@@ -1,10 +1,13 @@
-div{
-    text-align:center;
-    width:90vw;
-    height:90vh;
-    border: 1px solid pink;
-    position: relative;
+.form-container-register {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid pink;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-div h2{
-    color:white;
+.form-container-register h2 {
+  color: white;
 }
